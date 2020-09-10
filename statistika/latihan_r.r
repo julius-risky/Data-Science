@@ -30,3 +30,18 @@ Llingkaran <- function(r){
   luas <- pi*r^2
   return(luas)
 }
+
+#membuat fungsi 2 variable
+Lsegitiga <- function(alas,tinggi){
+  luas1 <-(1/2*alas*tinggi)
+  return(luas1)
+}
+
+hw <- function(){
+  print('hello word')
+}
+
+berhitung <- function(n){
+  for(i in 1:n){
+  print(i)}
+  }
