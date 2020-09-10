@@ -8,3 +8,11 @@ dr<- filter(dataset, segment=='Consumer' & profit >0)
 # & dan
 #| or
 
+#mutate 
+#membuat kolom baru
+dr<-mutate(dataset,avg_price = sales/quantity)
+
+#transmut
+#melihat kolom baru saja
+dr<-transmute(dataset,avg_price = sales/quantity)
+
