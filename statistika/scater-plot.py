@@ -15,5 +15,3 @@ print('data2: mean=%.3f stdv=%.3f' % (mean(data2), std(data2)))
 # plot
 pyplot.scatter(data1, data2)
 pyplot.show()
-
-print(mean(data1))
