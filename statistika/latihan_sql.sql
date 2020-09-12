@@ -1,3 +1,8 @@
+#memilih semua kolom
+SELECT * from produk
+#memilih salah satu kolom
+SELECT produk_id FROM produk
+
 SELECT 
 t.*,
 ap.name AS Produk_name
