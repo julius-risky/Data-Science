@@ -3,6 +3,9 @@ SELECT * from produk
 #memilih salah satu kolom
 SELECT produk_id FROM produk
 
+#memilih 2 kolom
+SELECT produk_id, Produk_name FROM produk
+
 SELECT 
 t.*,
 ap.name AS Produk_name
