@@ -6,6 +6,8 @@ SELECT produk_id FROM produk
 #memilih 2 kolom
 SELECT produk_id, Produk_name FROM produk
 
+#memfilter data
+
 #prefelix dan alias
 SELECT produk_id as id FROM produk
 SELECT produk.produk_id FROM produk
