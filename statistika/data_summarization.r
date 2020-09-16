@@ -24,7 +24,6 @@ data_d <- select(data_b,c(order_id,segment,sub_category,category,order_date))
 bind_cols(data_c,data_b)
 
 #join/ menggabungkan yg sama
-
 inner_join(data_c,data_d)
 
 full_join(data_c,data_d)
