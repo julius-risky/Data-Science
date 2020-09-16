@@ -8,7 +8,7 @@ df1=kolom_terpilih[:100]
 xs = [ i for i, _ in enumerate(df1)]
 
 plt.plot(xs, df1,'g-',label='sales')
-
+#layout
 plt.legend(loc='best')
 
 plt.xlabel('Periode penjualan')
