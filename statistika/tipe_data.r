@@ -8,7 +8,6 @@ m = matrix(1:12,nrow=3)
 a = array(1:24,c(3,4,2))
 
 #data frame
-
 user <-data.frame(
   names = name,
   gender = c('male','male','male','female'),
