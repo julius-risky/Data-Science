@@ -1,14 +1,14 @@
 # Latihan-Data-Science
 
-#day 1:
-#day 2:
-#day 3:
-#day 4:
-#day 5:
-#day 6:
-#day 7:
-#day 8:
-#day 9:
+#day 1: mengulang webbinar python for data science membuat visualisasi data matplotlib x pandas dan melanjuntak course dasar statistik untuk data science
+#day 2: skill academy "dasar programing untukl data science" : sql
+#day 3: skill academy: dasar r studio
+#day 4: skill academy: data frame & visualisasi data
+#day 5: skill academy: advance visualisasi data
+#day 6: skill academy: dasar-dasar python, dataframe python dan dasar visualisasi data
+#day 7: skill academy: advance data visualization python
+#day 8: qdlab "intro sql, dan python for data science 1"
+#day 9: 
 #day 10:
 #day 11:
 #day 12:
