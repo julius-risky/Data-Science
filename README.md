@@ -8,7 +8,7 @@
 #day 6: skill academy: dasar-dasar python, dataframe python dan dasar visualisasi data
 #day 7: skill academy: advance data visualization python
 #day 8: qdlab "intro sql, dan python for data science 1"
-#day 9: 
+#day 9: dqlab "finish python for data science 1"
 #day 10:
 #day 11:
 #day 12:
