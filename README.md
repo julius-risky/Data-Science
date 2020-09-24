@@ -9,11 +9,11 @@
 #day 7: skill academy: advance data visualization python
 #day 8: qdlab "intro sql, dan python for data science 1"
 #day 9: dqlab "python for data science 1"
-#day 10: dqlab "python for data science 2"
+#day 10:dqlab "python for data science 2"
 #day 11:dqlab "python for data science 2"
-#day 12:dqlab "finish python for data science 2"
-#day 13:
-#day 14:
+#day 12:dqlab "python for data science 2"
+#day 13:dqlab "python for data science 3"
+#day 14:dqlab "python for data science 3"
 #day 15:
 #day 16:
 #day 17:

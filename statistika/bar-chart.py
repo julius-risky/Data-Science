@@ -12,7 +12,7 @@ print(df1,df2)
 #xs = [i + 0.5 for i, _ in enumerate(df2)]
 
 plt.bar(df1, df2)
-
+#layout
 plt.xlabel('tanggal penjualan')
 plt.ylabel('penjualan')
 

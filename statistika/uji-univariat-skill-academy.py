@@ -3,7 +3,7 @@ import statistics as stat
 from matplotlib import pyplot as plt 
 
 #membaca file csv
-df = pd.read_csv('F:\Data science\Latihan statistika\Assessment Statistics foundation_ Dataset_superstore_simple.csv')
+df = pd.read_csv('F:\Latihan-Data-Science\statistika\Assessment_Statistics_foundation_ Dataset_superstore_simple.csv')
 kolom_terpilih = df['sales']
 df1=kolom_terpilih[:100]
 

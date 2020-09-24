@@ -7,7 +7,7 @@ SELECT produk_id FROM produk
 SELECT produk_id, Produk_name FROM produk
 
 #memfilterdata
-
+SELECT * FROM produk WHERE produk_name=='HP%'
 #prefelix dan alias
 SELECT produk_id as id FROM produk
 SELECT produk.produk_id FROM produk

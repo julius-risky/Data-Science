@@ -37,6 +37,7 @@ Lsegitiga <- function(alas,tinggi){
   return(luas1)
 }
 
+
 hw <- function(){
   print('hello word')
 }
