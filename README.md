@@ -14,7 +14,7 @@
 #day 12:dqlab "python for data science 2"
 #day 13:dqlab "python for data science 3"
 #day 14:dqlab "python for data science 3"
-#day 15:
+#day 15:dqlab "SQL"
 #day 16:
 #day 17:
 #day 18:
