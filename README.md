@@ -15,7 +15,7 @@
 #day 13:dqlab "python for data science 3"
 #day 14:dqlab "python for data science 3"
 #day 15:dqlab "Fundamental SQL with SELECT Statement"
-#day 16:
+#day 16:dqlab "Fundamental SQL Using FUNCTION and GROUP BY"
 #day 17:
 #day 18:
 #day 19:
