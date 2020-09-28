@@ -17,3 +17,9 @@ print(df.describe()) #hanya numerik saja
 print(df.describe(include=["object"] )) #dengan object tertentu yang tidak bernilai angka
 print(df.describe(include=["ALL"] )) # semua
 
+#menari mean,median, mode di pandas
+
+print(df.loc[:'price'].mean()) #rata2
+print(df.loc[:'price'].median())
+print(df.loc[:'price'].std()) #std deviasi
+print(df.loc[:'price'].var())#variansi
