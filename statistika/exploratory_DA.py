@@ -11,3 +11,9 @@ print(df.shape())
 df.head()
 df.tail() # terakfir
 
+#statistika deskriptif
+
+print(df.describe()) #hanya numerik saja
+print(df.describe(include=["object"] )) #dengan object tertentu yang tidak bernilai angka
+print(df.describe(include=["ALL"] )) # semua
+
