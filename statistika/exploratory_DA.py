@@ -23,3 +23,10 @@ print(df.loc[:'price'].mean()) #rata2
 print(df.loc[:'price'].median())
 print(df.loc[:'price'].std()) #std deviasi
 print(df.loc[:'price'].var())#variansi
+
+#histogram
+order_df = pd.read_csv("order.csv")
+# plot histogram kolom: price
+order_df[['price']].plthist(figsize=(4, 5), bins=10, xlabelsize=8, ylabelsize=8)
+plt.show()  # Untuk menampilkan histogram plot
+
