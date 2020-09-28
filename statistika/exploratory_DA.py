@@ -50,3 +50,16 @@ print(order_df)
 
 #rename dengan indeks 
 order_df.columns.values[0]="umur"
+
+#groupby
+import pandas as pd
+order_df = pd.read_csv("order.csv")
+# Hitung rata rata dari price per payment_type
+rata_rata = order_df["price "].groupby(order_df["payment_type"]).mean()
+print(rata_rata)
+
+#sorting
+order_df = pd.read_csv("order.csv")
+# Hitung harga maksimum pembelian customer
+sort_harga = order_df.sort_values(by="customer", ascending=False)
+print(sort_harga)
