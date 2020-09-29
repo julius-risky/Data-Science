@@ -12,3 +12,11 @@ matrix_list = pd.DataFrame(matrix)
 print("DataFrame:")
 print(matrix_list)
 
+#atribut data Frame
+# [1] attribute .info()
+print("[1] attribute .info()")
+print(matrix_list.info())
+# [2] attribute .shape
+print("\n[2] attribute .shape")
+print("    Shape dari number_list:", number_list.shape)
+print("    Shape dari matrix_list:", matrix_list.shape)
