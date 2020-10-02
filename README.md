@@ -19,7 +19,7 @@
 #day 17: dqlab "Fundamental SQL Using INNER JOIN and UNION"
 #day 18: dqlab "Exploratory Data Analysis with Python for Beginner"
 #day 19: dqlab "Data Manipulation with Pandas"
-#day 20:
+#day 20: dqlab "Data Manipulation with Pandas 2"
 #day 21:
 #day 22:
 #day 23:
