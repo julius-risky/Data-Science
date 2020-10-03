@@ -10,3 +10,12 @@ data = pd.DataFrame({
 # Pivoting with single column measurement
 pivot1 = data.pivot(index='murid',columns='pelajaran',values='nilai')
 print('Pivoting with single column measurement:\n', pivot1)
+# Pivoting with multiple column measurement
+pivot2 = data.pivot(index='murid',columns='pelajaran')
+print('Pivoting with multiple column measurement:\n', pivot2)
+# Creating pivot and assign pivot_tab dengan menggunakan keyword aggfunc='mean'
+pivot_tab_mean = data.pivot_table(index='kelas',columns='pelajaran',values='nilai',aggfunc='mean')
+print('Creating pivot table -- aggfunc mean:\n', pivot_tab_mean)
+# Creating pivot and assign pivot_tab dengan menggunakan keyword aggfunc='median'
+pivot_tab_median = data.pivot_table(index='kelas',columns='pelajaran',values='nilai',aggfunc='median')
+print('Creating pivot table -- aggfunc median:\n', pivot_tab_median)
