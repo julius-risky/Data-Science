@@ -20,7 +20,7 @@
 #day 18: dqlab "Exploratory Data Analysis with Python for Beginner"
 #day 19: dqlab "Data Manipulation with Pandas"
 #day 20: dqlab "Data Manipulation with Pandas 2"
-#day 21:
+#day 21: dqlab "Data Manipulation with Pandas 2"
 #day 22:
 #day 23:
 #day 24:
