@@ -21,7 +21,7 @@
 #day 19: dqlab "Data Manipulation with Pandas"
 #day 20: dqlab "Data Manipulation with Pandas 2"
 #day 21: dqlab "Data Manipulation with Pandas 2"
-#day 22:
+#day 22: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 1"
 #day 23:
 #day 24:
 #day 25:
