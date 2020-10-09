@@ -24,7 +24,7 @@
 #day 22: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 1"
 #day 23: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
 #day 24: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
-#day 25:
+#day 25: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
 #day 26:
 #day 27:
 #day 28:
