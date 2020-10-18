@@ -28,5 +28,5 @@
 #day 26: dqlab "Machine Learning With Python for Beginner"
 #day 27: statistika deskriptif
 #day 28: statistika inferensia
-#day 29:
+#day 29: statistika inferensia: confidence interval
 #day 30:
