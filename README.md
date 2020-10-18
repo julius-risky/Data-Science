@@ -27,6 +27,6 @@
 #day 25: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
 #day 26: dqlab "Machine Learning With Python for Beginner"
 #day 27: statistika deskriptif
-#day 28:
+#day 28: statistika inferensia
 #day 29:
 #day 30:
