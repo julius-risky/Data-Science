@@ -30,5 +30,6 @@
 #day 28: statistika inferensia
 #day 29: statistika inferensia: confidence interval
 #day 30: statistika hypotesis testing
-#day 31:
+#day 31: statistika regresi linier
+#day 32:
 
