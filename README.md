@@ -32,4 +32,6 @@
 #day 30: statistika hypotesis testing
 #day 31: statistika regresi linier
 #day 32: statistika regresi linier
+#day 33:
+
 
