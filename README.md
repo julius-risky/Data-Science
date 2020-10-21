@@ -33,5 +33,6 @@
 #day 31: statistika regresi linier
 #day 32: statistika regresi linier
 #day 33:
+#day 34:
 
 
