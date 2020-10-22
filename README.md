@@ -32,7 +32,7 @@
 #day 30: statistika hypotesis testing
 #day 31: statistika regresi linier
 #day 32: statistika regresi linier
-#day 33:
+#day 33: dqlab "Statistic using Python for Data Science "
 #day 34:
 
 
