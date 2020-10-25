@@ -34,6 +34,6 @@
 #day 32: statistika regresi linier
 #day 33: dqlab "Statistic using Python for Data Science "
 #day 34: dqlab "Statistic using Python for Data Science part 2"
-#day 35 :
+#day 35 : dqlab "Machine Learning With Python for Beginner"
 
 
