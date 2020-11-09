@@ -1,8 +1,10 @@
 # Latihan-Data-Science
 
 day 1: mengulang webbinar python for data science membuat visualisasi data matplotlib x pandas dan melanjuntak course dasar statistik untuk data science
+
 -[x]day 2: skill academy "dasar programing untukl data science" : sql
--[x]day 3: skill academy: dasar r studio
+
+day 3: skill academy: dasar r studio
 
 day 4: skill academy: data frame & visualisasi data
 
