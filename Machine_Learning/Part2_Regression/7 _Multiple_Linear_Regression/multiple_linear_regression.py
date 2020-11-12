@@ -44,3 +44,8 @@ X_opt = X[:, [0, 1, 2, 3, 4, 5]]
 X = np.array(X,dtype=float)
 regressor_OLS = sm.OLS(y,X_opt).fit()
 regressor_OLS.summary()
+#2
+X_opt = X[:, [0, 1, 3, 4, 5]]
+X = np.array(X,dtype=float)
+regressor_OLS = sm.OLS(y,X_opt).fit()
+regressor_OLS.summary()
