@@ -35,4 +35,12 @@ regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 np.set_printoptions(precision=2)
 print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1)),1))
-      
+#Building the optimal model using backward elimination
+import statsmodels.api as sm
+X = np.append(arr = np.ones((50, 1)).astype(int), values = X, axis = 1)
+print(X)
+#1
+X_opt = X[:, [0, 1, 2, 3, 4, 5]]
+X = np.array(X,dtype=float)
+regressor_OLS = sm.OLS(y,X_opt).fit()
+regressor_OLS.summary()
