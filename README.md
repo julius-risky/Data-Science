@@ -1,7 +1,6 @@
 # Latihan-Data-Science
 
 - day 1: mengulang webbinar python for data science membuat visualisasi data matplotlib x pandas dan melanjuntak course dasar statistik untuk data science
-
 - day 2: skill academy "dasar programing untukl data science" : sql
 - day 3: skill academy: dasar r studio
 - day 4: skill academy: data frame & visualisasi data
@@ -26,7 +25,7 @@
 - day 23: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
 - day 24: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
 - day 25: dqlab "Data Visualization with Python Matplotlib for Beginner - Part 2"
-- day 26: dqlab "Machine Learning With Python for Beginner"
+- day 26: dqlab "Machine Learning With Python for Beginner: Supervised Learning"
 - day 28: statistika inferensia
 - day 29: statistika inferensia: confidence interval
 - day 30: statistika hypotesis testing
@@ -39,9 +38,14 @@
 - day 37: udemy "regresi: simple regresi linier" 
 - day 38: udemy "regresi: multiple linier regression"
 - day 39: udemy "regresi: Polynomial regression"
-
-
-
-
-
-
+- day 40: dqlab "Machine Learning With Python for Beginner: Unsupervised Learning"
+- day 41: dqlab "Data Quality with Python for Beginner"
+- day 42:
+- day 43:
+- day 44:
+- day 45:
+- day 46:
+- day 47:
+- day 48:
+- day 49:
+- day 50:
