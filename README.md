@@ -40,7 +40,7 @@
 - day 39: udemy "regresi: Polynomial regression"
 - day 40: dqlab "Machine Learning With Python for Beginner: Unsupervised Learning"
 - day 41: dqlab "Data Quality with Python for Beginner"
-- day 42:
+- day 42: dqlab "Data Analyst Project: Business Decision Research"
 - day 43:
 - day 44:
 - day 45:
