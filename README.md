@@ -35,16 +35,16 @@
 - day 34: dqlab "Statistic using Python for Data Science part 2"
 - day 35: dqlab "Machine Learning With Python for Beginner"
 - day 36: udemy "data preprocessing : missing value,scaler,train test split"
-- day 37: udemy "regresi: simple regresi linier" 
-- day 38: udemy "regresi: multiple linier regression"
-- day 39: udemy "regresi: Polynomial regression"
+- day 37: udemy "ML_regression: simple regresi linier" 
+- day 38: udemy "ML_regression: multiple linier regression"
+- day 39: udemy "ML_regression: Polynomial regression"
 - day 40: dqlab "Machine Learning With Python for Beginner: Unsupervised Learning"
 - day 41: dqlab "Data Quality with Python for Beginner"
 - day 42: dqlab "Data Analyst Project: Business Decision Research"
-- day 43:
-- day 44:
-- day 45:
-- day 46:
+- day 43: udemy "ML_regression: Support Vector Regression (SVR)"
+- day 44: udemy "ML_regression: Decission tree"
+- day 45: udemy "ML_regression: Random forrest"
+- day 46: 
 - day 47:
 - day 48:
 - day 49:
