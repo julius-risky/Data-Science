@@ -44,8 +44,8 @@
 - day 43: udemy "ML_regression: Support Vector Regression (SVR)"
 - day 44: udemy "ML_regression: Decission tree"
 - day 45: udemy "ML_regression: Random forrest"
-- day 46: 
-- day 47:
+- day 46: udemy "ML_Classification: logistic regression"
+- day 47: udemy "ML_Classification: K-NN"
 - day 48:
 - day 49:
 - day 50:
