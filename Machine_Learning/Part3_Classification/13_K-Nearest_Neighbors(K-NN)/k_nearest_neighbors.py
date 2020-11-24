@@ -1,5 +1,4 @@
 # K-Nearest Neighbors (K-NN)
-
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,17 +20,19 @@ X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
 # Training the K-NN model on the Training set
+#crate your classifier here
 from sklearn.neighbors import KNeighborsClassifier
-classifier = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)
+classifier = KNeighborsClassifier(n_neighbors=5,metric='minkowski',p=2)
 classifier.fit(X_train, y_train)
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
+print(accuracy_score(y_test,y_pred))
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
@@ -68,3 +69,8 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
+
+
+
+
