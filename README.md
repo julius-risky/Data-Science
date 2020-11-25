@@ -47,5 +47,5 @@
 - day 46: udemy "ML_Classification: logistic regression"
 - day 47: udemy "ML_Classification: K-NN"
 - day 48: udemy "ML_Classification: SVM"
-- day 49:
+- day 49: udemy "ML_Classification: Kernel SVM"
 - day 50:
