@@ -1,4 +1,16 @@
-# Naive Bayes
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov 26 02:26:14 2020
+
+@author: yulius
+"""
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+#NAIVE BAYES CLASSIFICATION
 
 # Importing the libraries
 import numpy as np
@@ -20,7 +32,7 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# Training the Naive Bayes model on the Training set
+# Fitting the NAIVE BAYES on the Training set
 from sklearn.naive_bayes import GaussianNB
 classifier = GaussianNB()
 classifier.fit(X_train, y_train)
@@ -29,9 +41,11 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 cm = confusion_matrix(y_test, y_pred)
-print(cm)
+accuracy = accuracy_score(y_test, y_pred)
+print('confusion_matrix: \n',cm)
+print('accuracy : ', accuracy)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
@@ -45,7 +59,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('Naive Bayes (Training set)')
+plt.title('NAIVE BAYES (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
@@ -63,8 +77,9 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('Naive Bayes (Test set)')
+plt.title('NAIVE BAYES (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
