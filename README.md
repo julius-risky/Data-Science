@@ -7,15 +7,15 @@
 - day 5: skill academy: advance visualisasi data
 - day 6: skill academy: dasar-dasar python, dataframe python dan dasar visualisasi data
 - day 7: skill academy: advance data visualization python
-- day 8: qdlab "intro sql, dan python for data science 1"
-- day 9: dqlab "python for data science 1"
-- day 10:dqlab "python for data science 2"
-- day 11:dqlab "python for data science 2"
-- day 12:dqlab "python for data science 2"
-- day 13:dqlab "python for data science 3"
-- day 14:dqlab "python for data science 3"
-- day 15:dqlab "Fundamental SQL with SELECT Statement"
-- day 16:dqlab "Fundamental SQL Using FUNCTION and GROUP BY"
+- day 8: dqlab "intro sql, dan python for data science 1"
+- day 9:  dqlab "python for data science 1"
+- day 10: dqlab "python for data science 2"
+- day 11: dqlab "python for data science 2"
+- day 12: dqlab "python for data science 2"
+- day 13: dqlab "python for data science 3"
+- day 14: dqlab "python for data science 3"
+- day 15: dqlab "Fundamental SQL with SELECT Statement"
+- day 16: dqlab "Fundamental SQL Using FUNCTION and GROUP BY"
 - day 17: dqlab "Fundamental SQL Using INNER JOIN and UNION
 - day 18: dqlab "Exploratory Data Analysis with Python for Beginner"
 - day 19: dqlab "Data Manipulation with Pandas"
@@ -48,5 +48,8 @@
 - day 47: udemy "ML_Classification: K-NN"
 - day 48: udemy "ML_Classification: SVM"
 - day 49: udemy "ML_Classification: Kernel SVM"
-- day 50:udemy "ML_Classification: naive bayes"
-- day 51:
+- day 50: udemy "ML_Classification: naive bayes"
+- day 51: udemy "ML_Classification: Decission tree clasification"
+- day 52: udemy "ML_Classification: Random forest"
+- day 53:
+- day 54:
