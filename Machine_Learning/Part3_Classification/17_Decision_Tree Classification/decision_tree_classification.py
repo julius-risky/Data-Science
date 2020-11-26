@@ -20,18 +20,21 @@ sc = StandardScaler()
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# Training the Decision Tree Classification model on the Training set
-from sklearn.tree import DecisionTreeClassifier
-classifier = DecisionTreeClassifier(criterion = 'entropy', random_state = 0)
+# Fitting the Decision Tree on the Training set
+from sklearn.tree import  DecisionTreeClassifier
+classifier = DecisionTreeClassifier(criterion="entropy",random_state=0)
 classifier.fit(X_train, y_train)
+
 
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 cm = confusion_matrix(y_test, y_pred)
-print(cm)
+accuracy = accuracy_score(y_test, y_pred)
+print('confusion_matrix: \n',cm)
+print('accuracy : ', accuracy)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
@@ -45,7 +48,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('Decision Tree Classification (Training set)')
+plt.title('Decision Tree (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
@@ -63,8 +66,9 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('Decision Tree Classification (Test set)')
+plt.title('Decision Tree (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
