@@ -33,11 +33,16 @@ X_test = sc.transform(X_test)
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 cm = confusion_matrix(y_test, y_pred)
 accuracy = accuracy_score(y_test, y_pred)
 print('confusion_matrix: \n',cm)
 print('accuracy : ', accuracy)
+
+# classification report
+print('\nClassification report:')
+cr = classification_report(y_test,y_pred)
+print(cr)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
@@ -51,7 +56,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('___our_algortim_classification___ (Training set)')
+plt.title('___our_classifier___ (Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
@@ -69,7 +74,7 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('___our_algortim_classification___ (Test set)')
+plt.title('___our_classifier___ (Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
