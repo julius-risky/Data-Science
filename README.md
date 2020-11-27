@@ -51,5 +51,5 @@
 - day 50: udemy "ML_Classification: naive bayes"
 - day 51: udemy "ML_Classification: Decission tree clasification"
 - day 52: udemy "ML_Classification: Random forest"
-- day 53:
+- day 53: udemy "ML_Clustering: KMeans"
 - day 54:
