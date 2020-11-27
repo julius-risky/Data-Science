@@ -1,0 +1,7 @@
+    - [x] Data Preparation
+    - [x] Data Cleansing
+    - [x] Exploratory Data Analysis
+    - [x] Feature Engineering
+    - [x] Modeling
+    - [x] Evaluation
+    - [x] Deployment

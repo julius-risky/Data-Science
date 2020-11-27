@@ -30,11 +30,16 @@ classifier.fit(X_train, y_train)
 y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 cm = confusion_matrix(y_test, y_pred)
 accuracy = accuracy_score(y_test, y_pred)
 print('confusion_matrix: \n',cm)
 print('accuracy : ', accuracy)
+
+# classification report
+print('\nClassification report:')
+cr = classification_report(y_test,y_pred)
+print(cr)
 
 # Visualising the Training set results
 from matplotlib.colors import ListedColormap
