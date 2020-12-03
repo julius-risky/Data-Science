@@ -52,4 +52,4 @@
 - day 51: udemy "ML_Classification: Decission tree clasification"
 - day 52: udemy "ML_Classification: Random forest"
 - day 53: udemy "ML_Clustering: KMeans"
-- day 54:
+- day 54: udemy "ML_Clustering: Hierarchical_Clustering "
