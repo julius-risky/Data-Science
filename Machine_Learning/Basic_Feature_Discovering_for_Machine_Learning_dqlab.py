@@ -217,3 +217,5 @@ print("Scores:", scores)
 print('Confusion matrix:',sm)
 print("Mean score:", scores.mean())
 print("Standard Deviation:", scores.std())
+
+df.fillna()
